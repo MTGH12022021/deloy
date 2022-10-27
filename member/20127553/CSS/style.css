@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'SVN-Avengeance';
+    src: url('../font/SVN-Avengeance.eot');
+    src: url('../font/SVN-Avengeance.eot?#iefix') format('embedded-opentype'),
+        url('../font/SVN-Avengeance.woff2') format('woff2'),
+        url('../font/SVN-Avengeance.woff') format('woff'),
+        url('../font/SVN-Avengeance.ttf') format('truetype'),
+        url('../font/SVN-Avengeance.svg#SVN-Avengeance') format('svg');
+    font-weight: 50;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    /* background-color: beige; */
+    background-image: radial-gradient(#66ff99, #ffff99);
+    margin: 0px;
+}
+
+.Description1 {
+    margin-bottom: 200px;
+}
+
+.avatar {
+    height: 35vh;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.avatar img {
+    height: 90%;
+    width: 20%;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+}
+
+.descriptionBasic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descriptionBasic h1,
+.descriptionBasic h2,
+.descriptionBasic h3,
+.descriptionBasic p {
+    font-family: 'SVN-Avengeance';
+    font-weight: 90;
+    letter-spacing: 2px;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+
+.Description2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Description2 .description-text {
+    flex: 1;
+    padding: 50px;
+}
+
+.Description2 .description-text p {
+    font: 400 40px/0.8 'Great Vibes', Helvetica, sans-serif;
+    color: rgb(239, 103, 103);
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1);
+}
+
+.Description2 .description-text h1 {
+    margin-top: 20px;
+    font: 400 80px/0.8 'Great Vibes', Helvetica, sans-serif;
+    color: rgb(239, 103, 103);
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1);
+}
+
+.Description2 .description-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.Description2 .description-text_icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon_facebook {
+    color: var(--white--color);
+    text-decoration: none;
+}
+
+.icon_back {
+    color: var(--white--color);
+    text-decoration: none;
+}
+
+.icon_back:hover,
+.icon_facebook:hover {
+    color: #3b5998;
+    text-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 800px) {
+
+    .descriptionBasic h1 {
+        font-size: clamp(2rem, 2vw, 6rem);
+        /* font-size: calc(0.75em + 1vw); */
+        letter-spacing: 1px;
+    }
+
+    .descriptionBasic h2 {
+        font-size: clamp(1.2rem, 1.2 vw, 5rem);
+        /* font-size: calc(0.75em + 1vw); */
+        letter-spacing: 1px;
+    }
+
+    .descriptionBasic h3,
+    .descriptionBasic p {
+        font-size: clamp(1rem, 1vw, 5rem);
+        /* font-size: calc(0.75em + 1vw); */
+        letter-spacing: 1px;
+    }
+
+    .Description2 .description-text p {
+        font: 400 30px/0.8 'Great Vibes', Helvetica, sans-serif;
+        color: rgb(239, 103, 103);
+        text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .Description2 .description-text h1 {
+        margin-top: 10px;
+        font: 400 80px/0.8 'Great Vibes', Helvetica, sans-serif;
+        color: rgb(239, 103, 103);
+        text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1);
+    }
+}

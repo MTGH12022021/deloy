@@ -1,0 +1,47 @@
+
+
+body {
+    margin: 0%;
+}
+
+body {
+    background-image: radial-gradient(#ffff66, #ff99cc);
+}
+
+.photo {
+    text-align: center;
+}
+
+.introduction_group {
+    text-align: center;
+}
+
+.introduction_group .table {
+    color: #5F6F94;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    font-size: large;
+    font: 200 30px/1.3 "Sofia", Helvetica, sans-serif;
+}
+
+div {
+    display: block;
+}
+
+.photo img {
+    width: 1000px;
+    height: 400px;
+}
+
+p {
+    font: 400 200px/1.3 "Audiowide", Helvetica, sans-serif;
+    color: #2b2b2b;
+    text-shadow: 4px 4px 0px rgba(0, 0, 255, 0.3);
+}
